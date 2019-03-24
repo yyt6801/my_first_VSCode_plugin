@@ -1,0 +1,1 @@
+This is yyt6801's first vsix file. package test!
