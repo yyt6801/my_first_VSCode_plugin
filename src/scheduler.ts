@@ -16,10 +16,12 @@ export class Scheduler {
                 "该吃饭啦!",
                 "又在调BUG呢!加油哦~么么哒",
                 "如果没能一次成功，那就叫它1.0版吧",
+                "你找出这个bug人家就跟你走",
+                "愿头发依旧茂密"
                 
             ]
 
-            vscode.window.showWarningMessage(string[Math.floor(Math.random() * string.length)])
+            vscode.window.showInformationMessage(string[Math.floor(Math.random() * string.length)])
            // ReminderView.show();
         }, 1000 * 5);
     }
